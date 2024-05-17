@@ -1,12 +1,11 @@
 <nav
     class="nav d-flex"
 >
-    <h1>PTO</h1>
+    <a class="nav-link" href="{{route('welcome')}}" aria-current="page"
+    ><h1><i class="fa-solid fa-dumbbell"></i>PTO</h1></a>
     <div class="linkNav">
 
-        <a class="nav-link" href="{{route('welcome')}}" aria-current="page"
-            >Home</a
-        >
+        
         <div class="dropdown">
             <a href="#" class="dropbtn">Servicios</a>
             <div class="dropdown-content">
@@ -14,6 +13,6 @@
               <a href="{{route('nutricion')}}">Nutrición</a>
             </div>
           </div>
-        <a class="nav-link" href="#">IMC</a>
+        <a class="nav-link" href="{{route('imc')}}">IMC</a>
     </div>
 </nav>
