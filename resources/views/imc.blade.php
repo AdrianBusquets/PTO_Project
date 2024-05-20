@@ -1,4 +1,5 @@
 <x-layout>
+    <h2 class="tituloPagina">Calcula tu IMC</h2>
     <img class="imgTabla" src="{{ asset('img/tablaIMC.jpg') }}" alt="Tabla IMC">
 
     <div class="formImc">

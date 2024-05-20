@@ -2,7 +2,7 @@
     class="nav d-flex"
 >
     <a class="nav-link" href="{{route('welcome')}}" aria-current="page"
-    ><h1><i class="fa-solid fa-dumbbell"></i>PTO</h1></a>
+    ><h1><i class="fa-solid fa-dumbbell" style="position: absolute; font-size: 3rem; color:rgb(19, 19, 19); left: 0; top:0.5rem; z-index: -1;"></i>PTO</h1></a>
     <div class="linkNav">
 
         

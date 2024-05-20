@@ -1,5 +1,6 @@
 <x-layout>
 
+    <h2 class="tituloPagina">Rutinas</h2>
     <div>
         <h3 class="ejerciciosRutina"><a data-bs-toggle="#ejercicios-pecho" href="#">Pecho</a></h3>
         <div class="containerEjercicios" id="ejercicios-pecho" style="display: none;">

@@ -1,4 +1,6 @@
 <x-layout>
+    <h2 class="tituloPagina">Contacto</h2>
+
     <form class="formContact" action="{{ route('contact.store') }}" method="POST">
         @csrf
 

@@ -1,4 +1,5 @@
 <x-layout>
+    <h2 class="tituloPagina">Nutrición</h2>
     <main>
         <section class="banner">
             <h1>¡Alimenta tu cuerpo para el éxito!</h1>

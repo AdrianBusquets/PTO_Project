@@ -50,6 +50,13 @@ input, textarea{
     text-align: center;
 }
 
+.tituloPagina{
+    max-width: 100vw;
+    text-align: center;
+    margin-block: 1rem;
+    text-shadow: 1px 1px 3px whitesmoke;
+}
+
 /**************************************INDEX***********************************************************/
 body{
     background: linear-gradient(90deg, rgba(91,91,91,1) 0%, rgba(133,133,133,1) 49%, rgba(99,99,99,0.6982758620689655) 100%);
@@ -71,7 +78,16 @@ nav h1{
     width: 20%;
     text-align: center;
     margin-inline: 1rem;
+    color: rgb(82, 82, 82);
+    transition: all ease 0.5s;
+    -webkit-text-stroke: 1px rgb(218, 218, 218);
 }
+
+nav h1:hover{
+    color: whitesmoke;
+}
+
+
 
 .linkNav{
     width: 100%;
@@ -387,7 +403,7 @@ footer ul{
     width: 60vw;
     height: auto;
     position: relative;
-    left: 20vw;
+    left: 18vw;
     display: flex;
     flex-direction: column;
     align-items: center;
